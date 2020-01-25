@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>whackAmole</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        
+            <div class='controls'>
+                <button id='green'  onclick="start()">START</button>
+                <h3>TIME LEFT</h3>
+                <div id='time-left'>0</div>
+            </div>
+            <div class="grid-container">
+                    <div id='1' class="grid-item" onclick="clicked('1')"></div>
+                    <div id='2' class="grid-item" onclick="clicked('2')"></div>
+                    <div id='3' class="grid-item" onclick="clicked('3')"></div>
+                    <div id='4' class="grid-item" onclick="clicked('4')"></div>
+                    <div id='5' class="grid-item" onclick="clicked('5')"></div>
+                    <div id='6' class="grid-item" onclick="clicked('6')"></div>
+                    <div id='7' class="grid-item" onclick="clicked('7')"></div>
+                    <div id='8' class="grid-item" onclick="clicked('8')"></div>
+                    <div id='9' class="grid-item" onclick="clicked('9')"></div>
+                </div>
+                <div class='scorecard'>
+                    <div id='cs'>
+                        <h1 id='score'>SCORE</h1>
+                        <div id='current-score'>0</div>   
+                    </div>
+                </div>
+    </body>
+    <script src="script.js"></script>
+</html>
